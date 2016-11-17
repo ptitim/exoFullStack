@@ -1,0 +1,29 @@
+.evenements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3vh 1vw;
+  background-color: rgba(205, 144, 175, 0.7);
+}
+.container{
+  overflow: hidden;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(39, 49, 232, 0.6);
+  color: rgb(0, 75, 34);
+}
+#asup{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  background-color: rgba(113, 113, 113, 0.41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
